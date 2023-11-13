@@ -1,4 +1,4 @@
-package com.checkpoint.cp3;
+package com.dbs.cp3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

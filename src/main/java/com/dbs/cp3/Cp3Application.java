@@ -1,4 +1,4 @@
-package com.checkpoint.cp3;
+package com.dbs.cp3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

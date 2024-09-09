@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-initdb-config
+data:
+  produto.sql: |
+    CREATE DATABASE IF NOT EXISTS banco_cp3;
+    USE banco_cp3;
+    CREATE TABLE produto (
+        id BIGINT AUTO_INCREMENT PRIMARY KEY,
+        nome VARCHAR(255) NOT NULL,
+        descricao TEXT,
+        preco DECIMAL(10, 2) NOT NULL,
+        quantidade INT NOT NULL,
+        data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
